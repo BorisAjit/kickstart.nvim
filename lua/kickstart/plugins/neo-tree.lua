@@ -24,7 +24,7 @@ return {
   },
   config = function()
     vim.keymap.set('n', '<leader>tn', ':tabnext<CR>', { desc = '[T]ab [N]ext', noremap = true, silent = true })
-    vim.keymap.set('n', '<leader>tp', ':tabprev<CR>', { desc = '[T]ab [N]ext', noremap = true, silent = true })
+    vim.keymap.set('n', '<leader>tp', ':tabprev<CR>', { desc = '[T]ab [P]revious', noremap = true, silent = true })
     vim.keymap.set('n', '<leader>tt', ':tabnew<CR>', { desc = '[T]ab new:', noremap = true, silent = true })
     vim.keymap.set('n', '<leader>t1', ':tabn 1<CR>', { desc = '[T]ab 1', noremap = true, silent = true })
     vim.keymap.set('n', '<leader>t2', ':tabn 2<CR>', { desc = '[T]ab 2', noremap = true, silent = true })
